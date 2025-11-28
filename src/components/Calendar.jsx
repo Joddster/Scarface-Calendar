@@ -26,40 +26,42 @@ const Calendar = ({ monthDate, days, onNavigate, onSelectDay }) => {
         </div>
       </header>
 
-      <div className="calendar__grid">
-        {WEEKDAY_LABELS.map((weekday) => (
-          <div key={weekday} className="calendar__weekday">
-            {weekday}
-          </div>
-        ))}
+      <div className="calendar__grid-wrapper">
+        <div className="calendar__grid">
+          {WEEKDAY_LABELS.map((weekday) => (
+            <div key={weekday} className="calendar__weekday">
+              {weekday}
+            </div>
+          ))}
 
-        {days.map(({ date, iso, summary }) => {
-          const dayNumber = date.getDate()
-          const activeMonth = isSameMonth(date, monthDate)
-          const today = isToday(date)
-          const pnl = summary?.pnl ?? null
-          const trades = summary?.trades ?? 0
-          const status = pnl > 0 ? 'positive' : pnl < 0 ? 'negative' : ''
-          const showMuted = !activeMonth && summary
+          {days.map(({ date, iso, summary }) => {
+            const dayNumber = date.getDate()
+            const activeMonth = isSameMonth(date, monthDate)
+            const today = isToday(date)
+            const pnl = summary?.pnl ?? null
+            const trades = summary?.trades ?? 0
+            const status = pnl > 0 ? 'positive' : pnl < 0 ? 'negative' : ''
+            const showMuted = !activeMonth && summary
 
-          return (
-            <button
-              type="button"
-              key={iso}
-              className={`calendar__day ${showMuted ? 'muted' : ''} ${status} ${today ? 'today' : ''}`}
-              onClick={() => onSelectDay(iso)}
-            >
-              <div className="calendar__day-header">
-                <span>{dayNumber}</span>
-                {today && <span className="calendar__badge">Today</span>}
-              </div>
-              <div className="calendar__day-body">
-                <p className="calendar__day-pnl">{pnl !== null ? formatCurrency(pnl) : 'No trades'}</p>
-                {pnl !== null && <p className="calendar__day-trades">{trades} trades</p>}
-              </div>
-            </button>
-          )
-        })}
+            return (
+              <button
+                type="button"
+                key={iso}
+                className={`calendar__day ${showMuted ? 'muted' : ''} ${status} ${today ? 'today' : ''}`}
+                onClick={() => onSelectDay(iso)}
+              >
+                <div className="calendar__day-header">
+                  <span>{dayNumber}</span>
+                  {today && <span className="calendar__badge">Today</span>}
+                </div>
+                <div className="calendar__day-body">
+                  <p className="calendar__day-pnl">{pnl !== null ? formatCurrency(pnl) : 'No trades'}</p>
+                  {pnl !== null && <p className="calendar__day-trades">{trades} trades</p>}
+                </div>
+              </button>
+            )
+          })}
+        </div>
       </div>
     </section>
   )
