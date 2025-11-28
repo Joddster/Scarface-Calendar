@@ -292,7 +292,7 @@
   border-radius: 1rem;
   border: 1px solid var(--border);
   background: var(--bg-secondary);
-  min-height: 120px;
+  min-height: 110px;
   padding: 0.75rem;
   text-align: left;
   display: flex;
@@ -342,7 +342,7 @@
 .calendar__day-pnl {
   margin: 0;
   font-weight: 600;
-  font-size: 1.1rem;
+  font-size: 1.05rem;
 }
 
 .calendar__day.positive .calendar__day-pnl {
@@ -465,8 +465,16 @@
   }
 
   .calendar__day {
-    min-height: 100px;
+    min-height: 95px;
     padding: 0.5rem;
+  }
+
+  .calendar__day-pnl {
+    font-size: 0.95rem;
+  }
+
+  .calendar__day-trades {
+    font-size: 0.75rem;
   }
 }
 
@@ -486,6 +494,22 @@
   .calendar__grid-wrapper {
     margin: 0 -1rem;
     padding: 0 1rem 0.5rem;
+  }
+
+  .calendar__day {
+    min-height: 80px;
+  }
+
+  .calendar__day-header span {
+    font-size: 0.85rem;
+  }
+
+  .calendar__badge {
+    font-size: 0.55rem;
+  }
+
+  .calendar__day-pnl {
+    font-size: 0.9rem;
   }
 }
 
@@ -512,10 +536,18 @@
   }
 
   .calendar__day {
-    min-height: 90px;
+    min-height: 70px;
   }
 
   .sidebar__actions .btn {
     width: 100%;
+  }
+
+  .calendar__day-pnl {
+    font-size: 0.85rem;
+  }
+
+  .calendar__day-trades {
+    font-size: 0.7rem;
   }
 }
