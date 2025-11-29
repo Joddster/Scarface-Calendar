@@ -20,14 +20,14 @@ export const seedTradingDays = [
   },
   {
     "date": "2024-04-18",
-    "stock": "AMD",
-    "pnl": 2300,
+    "stock": "META",
+    "pnl": 5000,
     "trades": 1
   },
   {
     "date": "2024-04-18",
-    "stock": "META",
-    "pnl": 5000,
+    "stock": "AMD",
+    "pnl": 2300,
     "trades": 1
   },
   {
@@ -50,14 +50,14 @@ export const seedTradingDays = [
   },
   {
     "date": "2024-04-30",
-    "stock": "NVDA",
-    "pnl": 18000,
+    "stock": "NVDA+AAPL",
+    "pnl": 8000,
     "trades": 1
   },
   {
     "date": "2024-04-30",
-    "stock": "NVDA+AAPL",
-    "pnl": 8000,
+    "stock": "NVDA",
+    "pnl": 18000,
     "trades": 1
   },
   {
@@ -74,7 +74,7 @@ export const seedTradingDays = [
   },
   {
     "date": "2024-05-07",
-    "stock": "AMZN+TSLA",
+    "stock": "TSLA",
     "pnl": 1500,
     "trades": 1
   },
@@ -171,8 +171,14 @@ export const seedTradingDays = [
   {
     "date": "2024-06-18",
     "stock": "TSLA",
-    "pnl": 12200,
-    "trades": 2
+    "pnl": 1200,
+    "trades": 1
+  },
+  {
+    "date": "2024-06-18",
+    "stock": "TSLA",
+    "pnl": 11000,
+    "trades": 1
   },
   {
     "date": "2024-06-21",
@@ -190,7 +196,7 @@ export const seedTradingDays = [
     "date": "2024-06-28",
     "stock": "TSLA+AAPL",
     "pnl": 7000,
-    "trades": 1
+    "trades": 2
   },
   {
     "date": "2024-06-29",
@@ -237,8 +243,14 @@ export const seedTradingDays = [
   {
     "date": "2024-07-23",
     "stock": "NVDA",
-    "pnl": -6400,
-    "trades": 2
+    "pnl": -4800,
+    "trades": 1
+  },
+  {
+    "date": "2024-07-23",
+    "stock": "NVDA",
+    "pnl": -1600,
+    "trades": 1
   },
   {
     "date": "2024-07-30",
@@ -316,6 +328,12 @@ export const seedTradingDays = [
     "date": "2024-09-06",
     "stock": "AAPL",
     "pnl": 2900,
+    "trades": 1
+  },
+  {
+    "date": "2024-09-13",
+    "stock": "TSLA",
+    "pnl": -3800,
     "trades": 1
   },
   {
@@ -471,19 +489,19 @@ export const seedTradingDays = [
   {
     "date": "2024-12-01",
     "stock": "AAPL",
-    "pnl": 230000,
-    "trades": 2
-  },
-  {
-    "date": "2024-12-03",
-    "stock": "AAPL",
-    "pnl": 4000,
+    "pnl": 10000,
     "trades": 1
   },
   {
     "date": "2024-12-03",
     "stock": "AAPL+TSLA",
     "pnl": 2000,
+    "trades": 1
+  },
+  {
+    "date": "2024-12-03",
+    "stock": "AAPL",
+    "pnl": 4000,
     "trades": 1
   },
   {
@@ -538,6 +556,18 @@ export const seedTradingDays = [
     "date": "2024-12-27",
     "stock": "AAPL",
     "pnl": 500,
+    "trades": 1
+  },
+  {
+    "date": "2025-01-05",
+    "stock": "NVDA",
+    "pnl": 3000,
+    "trades": 1
+  },
+  {
+    "date": "2025-01-05",
+    "stock": "NVDA",
+    "pnl": -1700,
     "trades": 1
   },
   {
@@ -643,6 +673,12 @@ export const seedTradingDays = [
     "trades": 1
   },
   {
+    "date": "2025-02-26",
+    "stock": "AAPL",
+    "pnl": -1800,
+    "trades": 1
+  },
+  {
     "date": "2025-02-28",
     "stock": "TSLA+META",
     "pnl": 15000,
@@ -656,14 +692,14 @@ export const seedTradingDays = [
   },
   {
     "date": "2025-03-07",
-    "stock": "AAPL",
-    "pnl": 2200,
+    "stock": "TSLA",
+    "pnl": -4600,
     "trades": 1
   },
   {
     "date": "2025-03-07",
-    "stock": "TSLA",
-    "pnl": -4600,
+    "stock": "AAPL",
+    "pnl": 2200,
     "trades": 1
   },
   {
@@ -680,14 +716,14 @@ export const seedTradingDays = [
   },
   {
     "date": "2025-03-14",
-    "stock": "NVDA",
-    "pnl": 450,
+    "stock": "TSLA",
+    "pnl": 11800,
     "trades": 1
   },
   {
     "date": "2025-03-14",
-    "stock": "TSLA",
-    "pnl": 11800,
+    "stock": "NVDA",
+    "pnl": 450,
     "trades": 1
   },
   {
@@ -734,20 +770,26 @@ export const seedTradingDays = [
   },
   {
     "date": "2025-04-01",
+    "stock": "NVDA",
+    "pnl": 1600,
+    "trades": 1
+  },
+  {
+    "date": "2025-04-01",
     "stock": "TSLA+AAPL",
     "pnl": 17000,
     "trades": 1
   },
   {
     "date": "2025-04-03",
-    "stock": "AAPL+QQQ",
-    "pnl": 1000,
+    "stock": "NVDA",
+    "pnl": 600,
     "trades": 1
   },
   {
     "date": "2025-04-03",
-    "stock": "NVDA",
-    "pnl": 600,
+    "stock": "AAPL+QQQ",
+    "pnl": 1000,
     "trades": 1
   },
   {
@@ -766,12 +808,24 @@ export const seedTradingDays = [
     "date": "2025-04-10",
     "stock": "TSLA",
     "pnl": 4800,
-    "trades": 2
+    "trades": 1
+  },
+  {
+    "date": "2025-04-10",
+    "stock": "TSLA",
+    "pnl": 100,
+    "trades": 1
   },
   {
     "date": "2025-04-16",
     "stock": "TSLA",
     "pnl": 6700,
+    "trades": 1
+  },
+  {
+    "date": "2025-04-17",
+    "stock": "TSLA",
+    "pnl": -3000,
     "trades": 1
   },
   {
@@ -830,12 +884,6 @@ export const seedTradingDays = [
   },
   {
     "date": "2025-05-15",
-    "stock": "AAPL+TSLA",
-    "pnl": 3000,
-    "trades": 1
-  },
-  {
-    "date": "2025-05-15",
     "stock": "TSLA+AAPL",
     "pnl": 6000,
     "trades": 1
@@ -890,14 +938,14 @@ export const seedTradingDays = [
   },
   {
     "date": "2025-06-10",
-    "stock": "AMD",
-    "pnl": 5000,
+    "stock": "TSLA",
+    "pnl": 9000,
     "trades": 1
   },
   {
     "date": "2025-06-10",
-    "stock": "TSLA",
-    "pnl": 9000,
+    "stock": "AMD",
+    "pnl": 5000,
     "trades": 1
   },
   {
@@ -962,14 +1010,20 @@ export const seedTradingDays = [
   },
   {
     "date": "2025-07-03",
+    "stock": "NVDA",
+    "pnl": 9400,
+    "trades": 1
+  },
+  {
+    "date": "2025-07-03",
     "stock": "AAPL",
     "pnl": 2000,
     "trades": 1
   },
   {
-    "date": "2025-07-03",
-    "stock": "NVDA",
-    "pnl": 9400,
+    "date": "2025-07-09",
+    "stock": "NVDA+TSLA",
+    "pnl": 15000,
     "trades": 1
   },
   {
@@ -997,9 +1051,21 @@ export const seedTradingDays = [
     "trades": 1
   },
   {
+    "date": "2025-07-17",
+    "stock": "TSLA+AMD",
+    "pnl": 19000,
+    "trades": 1
+  },
+  {
     "date": "2025-07-18",
     "stock": "HOOD",
     "pnl": 11000,
+    "trades": 1
+  },
+  {
+    "date": "2025-07-19",
+    "stock": "TSLA",
+    "pnl": 19000,
     "trades": 1
   },
   {
@@ -1286,14 +1352,14 @@ export const seedTradingDays = [
   },
   {
     "date": "2025-11-05",
-    "stock": "AMD",
-    "pnl": 19000,
+    "stock": "TSLA+AAPL",
+    "pnl": 10400,
     "trades": 1
   },
   {
     "date": "2025-11-05",
-    "stock": "TSLA+AAPL",
-    "pnl": 10400,
+    "stock": "AMD",
+    "pnl": 19000,
     "trades": 1
   },
   {
@@ -1340,6 +1406,12 @@ export const seedTradingDays = [
   },
   {
     "date": "2025-11-19",
+    "stock": "TSLA",
+    "pnl": 18400,
+    "trades": 1
+  },
+  {
+    "date": "2025-11-19",
     "stock": "TSLA+GOOGL",
     "pnl": 11600,
     "trades": 1
@@ -1358,14 +1430,14 @@ export const seedTradingDays = [
   },
   {
     "date": "2025-11-26",
-    "stock": "HOOD",
-    "pnl": -3000,
+    "stock": "NVDA",
+    "pnl": 550,
     "trades": 1
   },
   {
     "date": "2025-11-26",
-    "stock": "NVDA",
-    "pnl": 550,
+    "stock": "HOOD",
+    "pnl": -3000,
     "trades": 1
   }
 ]
